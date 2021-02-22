@@ -21,6 +21,7 @@
     <link rel="stylesheet" href={{ asset("template/ogani-master/css/owl.carousel.min.css") }} type="text/css">
     <link rel="stylesheet" href={{ asset("template/ogani-master/css/slicknav.min.css") }} type="text/css">
     <link rel="stylesheet" href={{ asset("template/ogani-master/css/style.css") }} type="text/css">
+    @livewireStyles
 </head>
 
 <body>
@@ -771,6 +772,7 @@
     <script src={{ asset("template/ogani-master/js/mixitup.min.js") }}></script>
     <script src={{ asset("template/ogani-master/js/owl.carousel.min.js") }}></script>
     <script src={{ asset("template/ogani-master/js/main.js") }}></script>
+    @livewireScripts
 
 
 
